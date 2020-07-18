@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1E884A97B6393E584FF38FFB /* Pods_BinartCrypto_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A704669CF4CAB784F8274A0 /* Pods_BinartCrypto_Tests.framework */; };
+		58B692BA24C2F2BD0008E486 /* 021cb6c992c35933caafc36390af05fe.json in Resources */ = {isa = PBXBuildFile; fileRef = 58B692B924C2F2BD0008E486 /* 021cb6c992c35933caafc36390af05fe.json */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,8 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		19C78AA731F4A1426EB3A372 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4F0B76959455B398B7875EA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		19C78AA731F4A1426EB3A372 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4F0B76959455B398B7875EA1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		58B692B924C2F2BD0008E486 /* 021cb6c992c35933caafc36390af05fe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 021cb6c992c35933caafc36390af05fe.json; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BinartCrypto_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinartCrypto_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,7 +60,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		65DDDFD9E6303554943496FE /* BinartCrypto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BinartCrypto.podspec; path = ../BinartCrypto.podspec; sourceTree = "<group>"; };
+		65DDDFD9E6303554943496FE /* BinartCrypto.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BinartCrypto.podspec; path = ../BinartCrypto.podspec; sourceTree = "<group>"; };
 		69C210B71DC00E859E320CCC /* Pods-BinartCrypto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinartCrypto_Tests.release.xcconfig"; path = "Target Support Files/Pods-BinartCrypto_Tests/Pods-BinartCrypto_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F9DC0AA594CB7E54F500D35 /* Pods-BinartCrypto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BinartCrypto_Example.debug.xcconfig"; path = "Target Support Files/Pods-BinartCrypto_Example/Pods-BinartCrypto_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +105,6 @@
 				FB65AFA8204C30A20EE1BFAB /* Pods-BinartCrypto_Tests.debug.xcconfig */,
 				69C210B71DC00E859E320CCC /* Pods-BinartCrypto_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +145,7 @@
 		6003F593195388D20070C39A /* Example for BinartCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				58B692B924C2F2BD0008E486 /* 021cb6c992c35933caafc36390af05fe.json */,
 				6003F59C195388D20070C39A /* BAAppDelegate.h */,
 				6003F59D195388D20070C39A /* BAAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +283,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				58B692BA24C2F2BD0008E486 /* 021cb6c992c35933caafc36390af05fe.json in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
