@@ -1,0 +1,23 @@
+{
+  "name": "BinartCrypto",
+  "version": "0.1.0",
+  "summary": "A short description of BinartCrypto.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fallending/BinartCrypto",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fallending": "sevenli@lilithgames.com"
+  },
+  "source": {
+    "git": "https://github.com/fallending/BinartCrypto.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BinartCrypto/Classes/**/*",
+  "public_header_files": "BinartCrypto/Classes/**/*.h"
+}
