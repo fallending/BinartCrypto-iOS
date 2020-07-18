@@ -32,8 +32,9 @@
     NSData *decryptData = [encryptData BinartAES_CBC_DecryptWith:ivData iv:ivData];
     
     NSString *decryptStr = [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding];
+    NSString *formatedStr = [decryptStr stringByReplacingOccurrencesOfString:@"\\u0026" withString:@"&"];
     
-    NSLog(@"%@", decryptStr);
+    NSLog(@"%@", formatedStr);
 }
 
 - (void)didReceiveMemoryWarning
