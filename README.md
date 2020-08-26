@@ -22,7 +22,7 @@ pod 'BinartCrypto'
 
 ## Author
 
-fallending, sevenli@lilithgames.com
+fallen ink, fengzilijie@qq.com
 
 ## License
 
